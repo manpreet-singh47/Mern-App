@@ -1,0 +1,97 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1543158266-0066955047b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80);
+  width:100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) 50%/50%;
+
+}
+label {
+  color: #fff;
+}
+form{
+  margin-top: 5%;
+  margin-inline: 5%;
+}
+.card{
+  margin-inline: 5%;
+  margin-top: 2%;
+}
+h1{
+  margin-inline: 5%;
+  color: #fff;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  margin: 0;
+  color: white;
+  background-color: #234;
+}
+
+section header {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+section header h2 {
+  font-size: 1.5rem;
+}
+
+section > * {
+  width: 90vw;
+}
+
+.banner1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  min-height: 96vh;
+  gap: 5%;
+  padding: 5vh 5vw;
+  background: #767676;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) 50%/50%;
+}
+
+.banner1 {
+  background-image: url(https://images.unsplash.com/photo-1543158266-0066955047b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80);
+
+}
+
+
+
+/* Fix for iOS Safari */
+@supports (-webkit-overflow-scrolling: touch) {
+  .banner1,
+  .banner2 {
+    background-attachment: scroll;
+  }
+}
+.banner-text {
+  min-width: 90vw;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 300;
+  overflow: auto;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 10vh;
+  font-size: 1.25rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
